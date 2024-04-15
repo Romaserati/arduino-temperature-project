@@ -1,4 +1,4 @@
-Required libs: 
+Required libs: \n
 DallasTemperature
 Wire
 OneWire
