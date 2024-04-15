@@ -39,7 +39,7 @@ void printTempOnLed(uint32_t interval) {
   for (int i = 3; i < temp / 3; i++) {
     if (temp / 3 > 13) {
       Serial.println("Temperature is higher than 40");
-      for (int i = 3; i < 13; i++) {
+      for (int j = 3; j < 13; j++) {
         digitalWrite(i, HIGH);
         delay(100);
       }
