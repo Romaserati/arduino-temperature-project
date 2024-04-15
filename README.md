@@ -3,5 +3,5 @@ DallasTemperature
 Wire  
 OneWire  
 LiquidCrystal_I2C    
-printTempOnMonitor() - to print temperature on monitor  
-printTempOnLed() - to print temperature on led
+printTempOnMonitor(interval) - to print temperature on monitor  
+printTempOnLed(interval) - to print temperature on led
